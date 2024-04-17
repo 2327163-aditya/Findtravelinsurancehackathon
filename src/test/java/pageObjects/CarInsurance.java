@@ -22,22 +22,22 @@ public class CarInsurance extends BasePage
 	@FindBy(xpath="//span[text()='car? Click here']")
 	WebElement carClickHere;
 	
-	@FindBy(xpath="//div[normalize-space()='Pune']")
+	@FindBy(xpath="//div[normalize-space()='Hyderabad']")
 	WebElement city;
 	
-	@FindBy(xpath="//span[text()='MH12']")
+	@FindBy(xpath="//span[text()='AP11']")
 	WebElement rto;
 	
-	@FindBy(xpath="(//span[text()='Tata'])[1]")
+	@FindBy(xpath="(//span[text()='Hyundai'])[1]")
 	WebElement carBrand;
 	
-	@FindBy(xpath="//span[text()='NEXON']")
+	@FindBy(xpath="//span[text()='AURA']")
 	WebElement carModel;
 	
-	@FindBy(xpath="//span[text()='Petrol']")
+	@FindBy(xpath="//span[text()='CNG']")
 	WebElement carFuelType;
 	
-	@FindBy(xpath="//span[text()='Creative Plus 1.2 Revotron Petrol 6AMT']")
+	@FindBy(xpath="//span[text()='SX CNG']")
 	WebElement carVariant;
 	
 	@FindBy(xpath="//input[@id='txtName']")

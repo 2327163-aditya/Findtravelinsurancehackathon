@@ -1,4 +1,4 @@
-Feature: TravelInsurance
+Feature: HealthInsurance
 
   @Sanity @Regression
   Scenario: Retrieving all Health Insurance menu items
